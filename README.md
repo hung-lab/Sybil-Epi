@@ -46,9 +46,9 @@ Note that the intercept must be added to the calculation. Also, note that the su
 
 **Calculation for Model 5:** 0.01625732000 + 0.030889602 x 7.47072426000 + 63 x -0.10165534300 + 28.88 x -0.02823116440 + 0 x 0.47694046700 + 6 x -0.05069236120 + 0 x 1 + 0 x 0.45120666500 + 0 x 0.02304009340 + 0 x -0.03478278100 + 0 x 0.02851307510 + 1 x 0.07705976050 + 43 x -0.16755627900 + 1.0 x 0.01929939040 + 40 x 0.00837984637 + 0 x 0.14322364400 + 2520.11 x 0.00381010544 = **-3.327800009**
 
-### Second, find the corresponding score for each sum using the tables in section 2. Isotonic function for each model
+### Second, find the corresponding score for each sum using the isotonic function tables in section 2. Isotonic function for each model
 
-|Model|Sum|Range in corresponding isotonic function|Final score|
+|Model|Sum|Range in corresponding isotonic function|Calibrated score|
 |-|-|-|-|
 Model 1|-3.805944893|[-3.80976013309103, -3.76522223698408]|0.0519480519480519|
 Model 2|-3.430498599|[-3.50322676511143, -3.38260458926028)|0.0252427184466019|
@@ -57,6 +57,10 @@ Model 4|-3.376623003|[-3.58668557313358, -3.36313485155923)|0.0199155099577549|
 Model 5|-3.327800009|[-3.49548891109088, -3.19647540660684)|0.00674915635545556|
 
 *If the sum does not fall within any of the listed ranges, then linear interpolation between the closest ranges must be applied.
+
+### Finally, the lung cancer risk score assigned to the subject used in this example is calculated as the average of the calibrated scores from all models
+
+**Calibrated score** = (0.0519480519480519 + 0.0252427184466019 + 0.0212765957446808 + 0.0199155099577549 + 0.00674915635545556) / 5 = **0.025026**
 
 ## 1. Coefficients for each factor included in the Sybil-Epi model
 |Factor|Model 1|Model 2|Model 3|Model 4|Model 5| 
