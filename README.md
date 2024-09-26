@@ -9,11 +9,11 @@ Given a subject with the factors below<sup>1</sup>:
 
 |Factor|Value|
 |-|-|
-|6-year Risk Sybil<sup>1</sup>|0.030889602|
+|6-year Risk Sybil<sup>2</sup>|0.030889602|
 |Age (years)|63|
 |BMI (kg/m<sup>2</sup>)|28.88|
 |COPD (0-yes, 1-no)|0|
-|Education level<sup>2</sup>|6|
+|Education level<sup>3</sup>|6|
 |Ethnicity - White (0-yes, 1-no)|1|
 |Ethnicity - Black (0-yes, 1-no)|0|
 |Ethnicity - Asian (0-yes, 1-no)|0|
@@ -21,10 +21,10 @@ Given a subject with the factors below<sup>1</sup>:
 |Family lung cancer history (0-yes, 1-no)|0|
 |Personal cancer history (0-yes, 1-no)|1|
 |Smoking duration (years)|43|
-|Smoking intensity ((cigarrettes per day))|1.0|
+|Smoking intensity (cigarrettes per day)|1.0|
 |Smoking quit time (years)|40|
-|Smoking status (0-yes, 1-no)|0|
-|Age x Smoking duration (years x years)|2520.11|
+|Smoking status (0-Former, 1-Current)|0|
+|Age x Smoking duration (years<sup>2</sup>)|2520.11|
 
 <sup>1</sup>All factors were measured using the units indicated in the [PLCO<sub>m2012</sub> model](https://www.nejm.org/doi/full/10.1056/NEJMoa1211776).
 
