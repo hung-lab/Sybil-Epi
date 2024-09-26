@@ -32,6 +32,8 @@ Given a subject with the factors below<sup>1</sup>:
 
 <sup>3</sup>Education was measured in six ordinal levels: less than high-school graduate (level 1), high-school graduate (level 2), some training after high school (level 3), some college (level 4), college graduate (level 5), and postgraduate or professional degree (level 6).
 
+### First, multiply each factor by the coefficients indicated in section 1. Coefficients for each factor included in the Sybil-Epi model
+
 ## 1. Coefficients for each factor included in the Sybil-Epi model
 |Factor|Model 1|Model 2|Model 3|Model 4|Model 5| 
 |-|-|-|-|-|-|
@@ -41,7 +43,7 @@ Given a subject with the factors below<sup>1</sup>:
 |BMI|-0.01732394310|-0.01994318480|-0.02247213930|-0.01906357390|-0.02823116440|
 |COPD|0.18149021100|0.23223599200|0.18960467600|0.37200519100|0.47694046700|
 |Education level|-0.08116632920|-0.08115994020|-0.05201051400|-0.06836542110|-0.05069236120|
-|Ethnicity - White|Reference|Reference|Reference|Reference|Reference|
+|Ethnicity - White|0.0 (Reference)|0.0 (Reference)|0.0 (Reference)|0.0 (Reference)|0.0 (Reference)|
 |Ethnicity - Black|0.23084095400|0.15766851600|0.23894223900|0.22021814400|0.45120666500|
 |Ethnicity - Asian|0.17212853500|0.43564514700|0.31138165200|-0.05802796240|0.02304009340|
 |Ethnicity - Others|0.36442735200|0.30574606700|0.59204369500|0.54687080400|-0.03478278100|
