@@ -1,5 +1,5 @@
 # Sybil-Epi
-An improved model for lung cancer risk prediction that combines deep learning features from the Sybil model with clinical and epidemiological factors.
+A model for lung cancer risk prediction that combines deep learning features from the [Sybil model](https://github.com/reginabarzilaygroup/Sybil/) with clinical and epidemiological factors.
 
 ## 1. Coefficients for each factor included in the Sybil-Epi model
 |Factor|Model 1|Model 2|Model 3|Model 4|Model 5| 
