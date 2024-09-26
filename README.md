@@ -1,7 +1,7 @@
 # Sybil-Epi
 An improved model for lung cancer risk prediction that combines deep learning features from the Sybil model with clinical and epidemiological factors.
 
-## Coefficients for each factor included in the Sybil-Epi model
+## 1. Coefficients for each factor included in the Sybil-Epi model
 |Factor|Model 1|Model 2|Model 3|Model 4|Model 5| 
 |-|-|-|-|-|-|
 |Intercept|-20.79038191000|-0.24621993000|-7.40740562000|-14.98083140000|0.01625732000|
@@ -22,9 +22,9 @@ An improved model for lung cancer risk prediction that combines deep learning fe
 |Smoking status|0.03382896010|0.14971355100|0.11961590300|0.17588838900|0.14322364400|
 |Age x Smoking duration|-0.00458450762|0.00171930035|-0.00103727472|-0.00367140897|0.00381010544|
 
-## Isotonic function for each model
+## 2. Isotonic function for each model
 
-### Model 1
+### 2.1. Model 1
 |Range|Score| 
 |-|-|
 |[-6.83084097765182, -5.54535145507885]|0.0|
@@ -62,7 +62,7 @@ An improved model for lung cancer risk prediction that combines deep learning fe
 |[1.33205349683115, 2.25257322093028]|0.8|
 |[2.28793489335508, 3.22150837109364]|1.0|
 
-### Model 2
+### 2.2. Model 2
 |Range|Score| 
 |-|-|
 |[-5.13976202645897, -4.45855247691666)|0.0|
@@ -97,7 +97,7 @@ An improved model for lung cancer risk prediction that combines deep learning fe
 |[1.70614331310756, 2.0612330181618)|0.923076923076923|
 |[2.14202917083523, 3.91208317660163)|1.0|
 
-### Model 3
+### 2.3. Model 3
 |Range|Score| 
 |-|-|
 |[-5.40896695555443, -4.44557905591795)|0.0|
@@ -138,7 +138,7 @@ An improved model for lung cancer risk prediction that combines deep learning fe
 |[1.76795244660686, 2.91795097929127)|0.923076923076923|
 |[2.94294776493842, 3.53725043203523)|1.0|
 
-### Model 4
+### 2.4. Model 4
 |Range|Score| 
 |-|-|
 |[-5.40297596576861, -4.145046360106)|0.0|
@@ -173,7 +173,7 @@ An improved model for lung cancer risk prediction that combines deep learning fe
 |[2.67248359202892, 2.76664158066157)|0.8|
 |[2.78591249999188, 3.84403802653575)|1.0|
 
-### Model 5
+### 2.5. Model 5
 |Range|Score| 
 |-|-|
 |[-5.34372288616349, -4.00900324181277)|0.0|
