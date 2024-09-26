@@ -5,15 +5,15 @@ The Sybil-Epi model was calibrated using [isotonic regression](https://scikit-le
 
 ## Example on how to use it
 
-Given a subject with the characteristics below:
+Given a subject with the factors below<sup>1</sup>:
 
 |Factor|Value|
 |-|-|
-|6-year Risk Sybil|0.030889602|
+|6-year Risk Sybil<sup>1</sup>|0.030889602|
 |Age (years)|63|
 |BMI (kg/m<sup>2</sup>)|28.88|
 |COPD (0-yes, 1-no)|0|
-|Education level|6|
+|Education level<sup>2</sup>|6|
 |Ethnicity - White (0-yes, 1-no)|1|
 |Ethnicity - Black (0-yes, 1-no)|0|
 |Ethnicity - Asian (0-yes, 1-no)|0|
@@ -25,6 +25,10 @@ Given a subject with the characteristics below:
 |Smoking quit time (years)|40|
 |Smoking status (0-yes, 1-no)|0|
 |Age x Smoking duration (years x years)|2520.11|
+
+<sup>1</sup>All factors were measured using the units indicated in the [PLCO<sup>m2012</sup> model](https://www.nejm.org/doi/full/10.1056/NEJMoa1211776).
+<sup>2</sup>The 6-year Risk Sybil value can be calculated from a single low-dose CT image, analyzed using the [Sybil model](https://github.com/reginabarzilaygroup/Sybil/).
+<sup>3</sup>Education was measured in six ordinal levels: less than high-school graduate (level 1), high-school graduate (level 2), some training after high school (level 3), some college (level 4), college graduate (level 5), and postgraduate or professional degree (level 6).
 
 ## 1. Coefficients for each factor included in the Sybil-Epi model
 |Factor|Model 1|Model 2|Model 3|Model 4|Model 5| 
