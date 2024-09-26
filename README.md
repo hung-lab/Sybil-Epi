@@ -46,7 +46,7 @@ Note that the intercept must be added to the calculation. Also, note that the su
 
 **Calculation for Model 5:** 0.01625732000 + 0.030889602 x 7.47072426000 + 63 x -0.10165534300 + 28.88 x -0.02823116440 + 0 x 0.47694046700 + 6 x -0.05069236120 + 0 x 1 + 0 x 0.45120666500 + 0 x 0.02304009340 + 0 x -0.03478278100 + 0 x 0.02851307510 + 1 x 0.07705976050 + 43 x -0.16755627900 + 1.0 x 0.01929939040 + 40 x 0.00837984637 + 0 x 0.14322364400 + 2520.11 x 0.00381010544 = **-3.327800009**
 
-### Second, find the corresponding score for each sum using the isotonic function tables in section 2. Isotonic function for each model
+### Second, find the corresponding score for each sum using the isotonic function tables in section [2. Isotonic function for each model](https://github.com/hung-lab/Sybil-Epi/blob/main/README.md#2-isotonic-function-for-each-model)
 
 |Model|Sum|Range in corresponding isotonic function|Calibrated score|
 |-|-|-|-|
