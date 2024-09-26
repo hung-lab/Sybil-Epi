@@ -34,6 +34,8 @@ Given a subject with the factors below<sup>1</sup>:
 
 ### First, multiply each factor by the coefficients indicated in section 1. Coefficients for each factor included in the Sybil-Epi model
 
+Calculation for Model 1: - 20.79038191000 + 0.030889602 x 7.02617157000 + 63 x 0.21847996200 + 28.88 x -0.01732394310 + 0 x 0.18149021100 + 6 x -0.08116632920 + 0 x 1 + 0 x 0.23084095400 + 0 x 0.17212853500 + 0 x 0.36442735200 + 0 x 0.09914501700 + 1 x 0.20821163600 + 43 x 0.36915862700 + 1.0 x 0.01823174660 + 40 x 0.00262488699 + 0 x 0.03382896010 + 2520.11 x -0.00458450762 = -3.805944893
+
 ## 1. Coefficients for each factor included in the Sybil-Epi model
 |Factor|Model 1|Model 2|Model 3|Model 4|Model 5| 
 |-|-|-|-|-|-|
