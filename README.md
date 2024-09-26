@@ -3,6 +3,29 @@ A model for lung cancer risk prediction that combines deep learning features fro
 
 The Sybil-Epi model was calibrated using [isotonic regression](https://scikit-learn.org/stable/modules/generated/sklearn.isotonic.IsotonicRegression.html#) with 5-fold cross validation (default setting), from the scikit-learn package.
 
+## Example on how to use it
+
+Given a subject with the characteristics below:
+
+|Factor|Value|
+|-|-|
+|6-year Risk Sybil|0.030889602|
+|Age (years)|63|
+|BMI (kg/m<sup>2</sup>)|28.88|
+|COPD (0-yes, 1-no)|0|
+|Education level|6|
+|Ethnicity - White (0-yes, 1-no)|1|
+|Ethnicity - Black (0-yes, 1-no)|0|
+|Ethnicity - Asian (0-yes, 1-no)|0|
+|Ethnicity - Others (0-yes, 1-no)|0|
+|Family lung cancer history (0-yes, 1-no)|0|
+|Personal cancer history (0-yes, 1-no)|1|
+|Smoking duration (years)|43|
+|Smoking intensity ((cigarrettes per day))|1.0|
+|Smoking quit time (years)|40|
+|Smoking status (0-yes, 1-no)|0|
+|Age x Smoking duration (years x years)|2520.11|
+
 ## 1. Coefficients for each factor included in the Sybil-Epi model
 |Factor|Model 1|Model 2|Model 3|Model 4|Model 5| 
 |-|-|-|-|-|-|
