@@ -32,19 +32,31 @@ Given a subject with the factors below<sup>1</sup>:
 
 <sup>3</sup>Education was measured in six ordinal levels: less than high-school graduate (level 1), high-school graduate (level 2), some training after high school (level 3), some college (level 4), college graduate (level 5), and postgraduate or professional degree (level 6).
 
-### First, multiply each factor by the coefficients indicated in section 1. Coefficients for each factor included in the Sybil-Epi model
+### First, calculate the sum after multiplying each factor by the coefficients indicated in section 1. Coefficients for each factor included in the Sybil-Epi model
 
-Note that the intercept must be added to the calculation. Also, note that one results is obtained for each of the indicated  5 models.
+Note that the intercept must be added to the calculation. Also, note that the sum must be calculated for each of the indicated  5 models.
 
 **Calculation for Model 1:** -20.79038191000 + 0.030889602 x 7.02617157000 + 63 x 0.21847996200 + 28.88 x -0.01732394310 + 0 x 0.18149021100 + 6 x -0.08116632920 + 0 x 1 + 0 x 0.23084095400 + 0 x 0.17212853500 + 0 x 0.36442735200 + 0 x 0.09914501700 + 1 x 0.20821163600 + 43 x 0.36915862700 + 1.0 x 0.01823174660 + 40 x 0.00262488699 + 0 x 0.03382896010 + 2520.11 x -0.00458450762 = **-3.805944893**
 
-**Calculation for Model 2:** -0.24621993000 + 0.030889602 x 6.96079105000 + 63 x -0.09406773960 + 28.88 x -0.01994318480 + 0 x 0.23223599200 + 6 x -0.08115994020 + 0 x 1 + 0 x 0.15766851600 + 0 x 0.43564514700 + 0 x 0.30574606700 + 0 x 0.08925881800 + 1 x 0.20821163600 + 43 x -0.04855800000 + 1.0 x 0.01969007140 + 40 x 0.01330713690 + 0 x 0.14971355100 + 2520.11 x 0.00171930035 = **-3.430498599**
+**Calculation for Model 2:** -0.24621993000 + 0.030889602 x 6.96079105000 + 63 x -0.09406773960 + 28.88 x -0.01994318480 + 0 x 0.23223599200 + 6 x -0.08115994020 + 0 x 1 + 0 x 0.15766851600 + 0 x 0.43564514700 + 0 x 0.30574606700 + 0 x 0.08925881800 + 1 x 0.24459386000 + 43 x -0.04855800000 + 1.0 x 0.01969007140 + 40 x 0.01330713690 + 0 x 0.14971355100 + 2520.11 x 0.00171930035 = **-3.430498599**
 
-**Calculation for Model 3:** -7.40740562000 + 0.030889602 x 6.92597482000 + 63 x 0.01853234780 + 28.88 x -0.02247213930 + 0 x 0.18960467600 + 6 x -0.05201051400 + 0 x 1 + 0 x 0.23894223900 + 0 x 0.31138165200 + 0 x 0.59204369500 + 0 x -0.00728941902 + 1 x 0.20821163600 + 43 x 0.13150375700 + 1.0 x 0.01734555020 + 40 x 0.00645552283 + 0 x 0.11961590300 + 2520.11 x -0.00103727472 = **-3.420847744**
+**Calculation for Model 3:** -7.40740562000 + 0.030889602 x 6.92597482000 + 63 x 0.01853234780 + 28.88 x -0.02247213930 + 0 x 0.18960467600 + 6 x -0.05201051400 + 0 x 1 + 0 x 0.23894223900 + 0 x 0.31138165200 + 0 x 0.59204369500 + 0 x -0.00728941902 + 1 x 0.17568551900 + 43 x 0.13150375700 + 1.0 x 0.01734555020 + 40 x 0.00645552283 + 0 x 0.11961590300 + 2520.11 x -0.00103727472 = **-3.420847744**
 
-**Calculation for Model 4:** -14.98083140000 + 0.030889602 x 7.24776249000 + 63 x 0.13195954400 + 28.88 x -0.01906357390 + 0 x 0.37200519100 + 6 x -0.06836542110 + 0 x 1 + 0 x 0.22021814400 + 0 x -0.05802796240 + 0 x 0.54687080400 + 0 x 0.05297350630 + 1 x 0.20821163600 + 43 x 0.30506137200 + 1.0 x 0.01915918910 + 40 x 0.00959059658 + 0 x 0.17588838900 + 2520.11 x -0.00367140897 = **-3.376623003**
+**Calculation for Model 4:** -14.98083140000 + 0.030889602 x 7.24776249000 + 63 x 0.13195954400 + 28.88 x -0.01906357390 + 0 x 0.37200519100 + 6 x -0.06836542110 + 0 x 1 + 0 x 0.22021814400 + 0 x -0.05802796240 + 0 x 0.54687080400 + 0 x 0.05297350630 + 1 x 0.17857532900 + 43 x 0.30506137200 + 1.0 x 0.01915918910 + 40 x 0.00959059658 + 0 x 0.17588838900 + 2520.11 x -0.00367140897 = **-3.376623003**
 
-**Calculation for Model 5:** 0.01625732000 + 0.030889602 x 7.47072426000 + 63 x -0.10165534300 + 28.88 x -0.02823116440 + 0 x 0.47694046700 + 6 x -0.05069236120 + 0 x 1 + 0 x 0.45120666500 + 0 x 0.02304009340 + 0 x -0.03478278100 + 0 x 0.02851307510 + 1 x 0.20821163600 + 43 x -0.16755627900 + 1.0 x 0.01929939040 + 40 x 0.00837984637 + 0 x 0.14322364400 + 2520.11 x 0.00381010544 = **-3.327800009**
+**Calculation for Model 5:** 0.01625732000 + 0.030889602 x 7.47072426000 + 63 x -0.10165534300 + 28.88 x -0.02823116440 + 0 x 0.47694046700 + 6 x -0.05069236120 + 0 x 1 + 0 x 0.45120666500 + 0 x 0.02304009340 + 0 x -0.03478278100 + 0 x 0.02851307510 + 1 x 0.07705976050 + 43 x -0.16755627900 + 1.0 x 0.01929939040 + 40 x 0.00837984637 + 0 x 0.14322364400 + 2520.11 x 0.00381010544 = **-3.327800009**
+
+### Second, find the corresponding score for each sum using the tables in section 2. Isotonic function for each model
+
+|Model|Sum|Range in corresponding isotonic function|Final score|
+|-|-|-|-|
+Model 1|-3.805944893|[-3.80976013309103, -3.76522223698408]|0.0519480519480519|
+Model 2|-3.430498599|[-3.50322676511143, -3.38260458926028)|0.0252427184466019|
+Model 3|-3.420847744|[-3.4288999459988, -3.41768951227193)|0.0212765957446808|
+Model 4|-3.376623003|[-3.58668557313358, -3.36313485155923)|0.0199155099577549|
+Model 5|-3.327800009|[-3.49548891109088, -3.19647540660684)|0.00674915635545556|
+
+*If the sum does not fall within any of the listed ranges, then linear interpolation between the closest ranges must be applied.
 
 ## 1. Coefficients for each factor included in the Sybil-Epi model
 |Factor|Model 1|Model 2|Model 3|Model 4|Model 5| 
@@ -69,7 +81,7 @@ Note that the intercept must be added to the calculation. Also, note that one re
 
 ## 2. Isotonic function for each model
 
-### 2.1. Model 1
+### 2.1. Isotonic function for Model 1
 |Range|Score| 
 |-|-|
 |[-6.83084097765182, -5.54535145507885]|0.0|
@@ -107,7 +119,7 @@ Note that the intercept must be added to the calculation. Also, note that one re
 |[1.33205349683115, 2.25257322093028]|0.8|
 |[2.28793489335508, 3.22150837109364]|1.0|
 
-### 2.2. Model 2
+### 2.2. Isotonic function for Model 2
 |Range|Score| 
 |-|-|
 |[-5.13976202645897, -4.45855247691666)|0.0|
@@ -142,7 +154,7 @@ Note that the intercept must be added to the calculation. Also, note that one re
 |[1.70614331310756, 2.0612330181618)|0.923076923076923|
 |[2.14202917083523, 3.91208317660163)|1.0|
 
-### 2.3. Model 3
+### 2.3. Isotonic function for Model 3
 |Range|Score| 
 |-|-|
 |[-5.40896695555443, -4.44557905591795)|0.0|
@@ -183,7 +195,7 @@ Note that the intercept must be added to the calculation. Also, note that one re
 |[1.76795244660686, 2.91795097929127)|0.923076923076923|
 |[2.94294776493842, 3.53725043203523)|1.0|
 
-### 2.4. Model 4
+### 2.4. Isotonic function for Model 4
 |Range|Score| 
 |-|-|
 |[-5.40297596576861, -4.145046360106)|0.0|
@@ -218,7 +230,7 @@ Note that the intercept must be added to the calculation. Also, note that one re
 |[2.67248359202892, 2.76664158066157)|0.8|
 |[2.78591249999188, 3.84403802653575)|1.0|
 
-### 2.5. Model 5
+### 2.5. Isotonic function for Model 5
 |Range|Score| 
 |-|-|
 |[-5.34372288616349, -4.00900324181277)|0.0|
