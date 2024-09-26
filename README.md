@@ -32,7 +32,7 @@ Given a subject with the factors below<sup>1</sup>:
 
 <sup>3</sup>Education was measured in six ordinal levels: less than high-school graduate (level 1), high-school graduate (level 2), some training after high school (level 3), some college (level 4), college graduate (level 5), and postgraduate or professional degree (level 6).
 
-### First, calculate the sum after multiplying each factor by the coefficients indicated in section 1. Coefficients for each factor included in the Sybil-Epi model
+### First, calculate the sum after multiplying each factor by the coefficients indicated in section [1. Coefficients for each factor included in the Sybil-Epi model](https://github.com/hung-lab/Sybil-Epi/blob/main/README.md#1-coefficients-for-each-factor-included-in-the-sybil-epi-model)
 
 Note that the intercept must be added to the calculation. Also, note that the sum must be calculated for each of the indicated  5 models.
 
