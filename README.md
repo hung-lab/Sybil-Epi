@@ -26,8 +26,10 @@ Given a subject with the factors below<sup>1</sup>:
 |Smoking status (0-yes, 1-no)|0|
 |Age x Smoking duration (years x years)|2520.11|
 
-<sup>1</sup>All factors were measured using the units indicated in the [PLCO<sup>m2012</sup> model](https://www.nejm.org/doi/full/10.1056/NEJMoa1211776).
+<sup>1</sup>All factors were measured using the units indicated in the [PLCO<sub>m2012</sub> model](https://www.nejm.org/doi/full/10.1056/NEJMoa1211776).
+
 <sup>2</sup>The 6-year Risk Sybil value can be calculated from a single low-dose CT image, analyzed using the [Sybil model](https://github.com/reginabarzilaygroup/Sybil/).
+
 <sup>3</sup>Education was measured in six ordinal levels: less than high-school graduate (level 1), high-school graduate (level 2), some training after high school (level 3), some college (level 4), college graduate (level 5), and postgraduate or professional degree (level 6).
 
 ## 1. Coefficients for each factor included in the Sybil-Epi model
