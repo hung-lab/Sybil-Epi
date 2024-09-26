@@ -50,11 +50,11 @@ Note that the intercept must be added to the calculation. Also, note that the su
 
 |Model|Sum|Range in corresponding isotonic function|Calibrated score|
 |-|-|-|-|
-Model 1|-3.805944893|[-3.80976013309103, -3.76522223698408]|0.0519480519480519|
-Model 2|-3.430498599|[-3.50322676511143, -3.38260458926028)|0.0252427184466019|
-Model 3|-3.420847744|[-3.4288999459988, -3.41768951227193)|0.0212765957446808|
-Model 4|-3.376623003|[-3.58668557313358, -3.36313485155923)|0.0199155099577549|
-Model 5|-3.327800009|[-3.49548891109088, -3.19647540660684)|0.00674915635545556|
+[Model 1](https://github.com/hung-lab/Sybil-Epi/blob/main/README.md#21-isotonic-function-for-model-1)|-3.805944893|[-3.80976013309103, -3.76522223698408]|0.0519480519480519|
+[Model 2](https://github.com/hung-lab/Sybil-Epi/blob/main/README.md#22-isotonic-function-for-model-2)|-3.430498599|[-3.50322676511143, -3.38260458926028)|0.0252427184466019|
+[Model 3](https://github.com/hung-lab/Sybil-Epi/blob/main/README.md#23-isotonic-function-for-model-3)|-3.420847744|[-3.4288999459988, -3.41768951227193)|0.0212765957446808|
+[Model 4](https://github.com/hung-lab/Sybil-Epi/blob/main/README.md#24-isotonic-function-for-model-4)|-3.376623003|[-3.58668557313358, -3.36313485155923)|0.0199155099577549|
+[Model 5](https://github.com/hung-lab/Sybil-Epi/blob/main/README.md#25-isotonic-function-for-model-5)|-3.327800009|[-3.49548891109088, -3.19647540660684)|0.00674915635545556|
 
 *If the sum does not fall within any of the listed ranges, then linear interpolation between the closest ranges must be applied.
 
