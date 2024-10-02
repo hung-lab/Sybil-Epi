@@ -18,10 +18,7 @@ The subject used in the example above presents the following factor values:
 |BMI (kg/m<sup>2</sup>)|28.88|
 |COPD (0-yes, 1-no)|0|
 |Education level<sup>3</sup>|6|
-|Ethnicity - White (0-yes, 1-no)|1|
-|Ethnicity - Black (0-yes, 1-no)|0|
-|Ethnicity - Asian (0-yes, 1-no)|0|
-|Ethnicity - Others (0-yes, 1-no)|0|
+|Ethnicity|White|
 |Family lung cancer history (0-yes, 1-no)|0|
 |Personal cancer history (0-yes, 1-no)|0|
 |Smoking duration (years)|40|
