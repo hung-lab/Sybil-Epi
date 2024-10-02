@@ -24,7 +24,7 @@ Given a subject with the factors below<sup>1</sup>:
 |Smoking intensity (cigarrettes per day)|1.0|
 |Smoking quit time (years)|40|
 |Smoking status (0-former, 1-current)|0|
-|Age x Smoking duration (years<sup>2</sup>)|2520.11|
+|Age x Smoking duration (years<sup>2</sup>)|2520|
 
 <sup>1</sup>All factors were measured using the units indicated in the [PLCO<sub>m2012</sub> model](https://www.nejm.org/doi/full/10.1056/NEJMoa1211776).
 
