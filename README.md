@@ -25,7 +25,6 @@ The subject used in the example above presents the following factor values:
 |Smoking intensity (cigarrettes per day)|1.0|
 |Smoking quit time (years)|40|
 |Smoking status (0-former, 1-current)|0|
-|Age x Smoking duration (years<sup>2</sup>)|2520|
 
 Further details on how to use sybil_epi.py can be obtained with the command
 `python sybil_epi.py -h`
