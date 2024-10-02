@@ -13,7 +13,7 @@ The subject used in the example above presents the following factor values:
 
 |Factor|Value|
 |-|-|
-|6-year Risk Sybil<sup>2</sup>|0.123949024|
+|6-year Risk Sybil|0.123949024|
 |Age (years)|63|
 |BMI (kg/m<sup>2</sup>)|28.88|
 |COPD (0-yes, 1-no)|0|
