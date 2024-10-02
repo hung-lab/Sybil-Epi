@@ -17,7 +17,7 @@ The subject used in the example above presents the following factor values:
 |Age (years)|63|
 |BMI (kg/m<sup>2</sup>)|28.88|
 |COPD (0-yes, 1-no)|0|
-|Education level<sup>3</sup>|6|
+|Education level|6|
 |Ethnicity|White|
 |Family lung cancer history (0-yes, 1-no)|0|
 |Personal cancer history (0-yes, 1-no)|0|
