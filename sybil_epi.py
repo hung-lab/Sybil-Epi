@@ -373,7 +373,6 @@ def calculate_sybil_epi_score(args):
                        )
 
         model_result_calibrated = calibrate_result(model_result, calibrator)
-        print(model_result, model_result_calibrated)
 
         model_result_total += model_result_calibrated
 
