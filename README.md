@@ -13,7 +13,7 @@ The subject used in the example above presents the following factor values:
 
 |Factor|Value|
 |-|-|
-|6-year Risk Sybil|0.123949024|
+|6-year Risk Sybil<sup>2</sup>|0.123949024|
 |Age (years)|63|
 |BMI (kg/m<sup>2</sup>)|28.88|
 |COPD (0-yes, 1-no)|0|
@@ -29,3 +29,8 @@ The subject used in the example above presents the following factor values:
 |Smoking quit time (years)|40|
 |Smoking status (0-former, 1-current)|0|
 |Age x Smoking duration (years<sup>2</sup>)|2520|
+
+Further details on how to use sybil_epi.py can be obtained with the command
+`python sybil_epi.py -h`
+
+A detailed explantation on the internal calculations done by the Sybil-Epi model can be found [here](https://github.com/hung-lab/Sybil-Epi/blob/main/AlgorithmDescription.md).
