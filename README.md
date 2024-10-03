@@ -28,5 +28,3 @@ The subject used in the example above presents the following factor values:
 
 Further details on how to use sybil_epi.py can be obtained with the command
 `python sybil_epi.py -h`
-
-A detailed explanation on the internal calculations done by the Sybil-Epi model can be found [here](https://github.com/hung-lab/Sybil-Epi/blob/main/Algorithm_description.md).
