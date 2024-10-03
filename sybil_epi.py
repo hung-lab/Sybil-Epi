@@ -380,13 +380,97 @@ def calculate_sybil_epi_score(args):
 
     return model_result_average
 
+def range_risk_sybil_6_year(arg):
+    """Type function for 6-year risk Sybil with predefined bounds."""
+    try:
+        sybil_risk = float(arg)
+    except ValueError:
+        raise argparse.ArgumentTypeError("6-year risk Sybil must be a floating point number")
+
+    MIN_BMI, MAX_BMI = 0.0, 1.0
+
+    if sybil_risk <= MIN_BMI or sybil_risk >= MAX_BMI:
+        raise argparse.ArgumentTypeError(
+            "6-year risk Sybil must be <= " + str(MAX_BMI) + " and >= " + str(MIN_BMI))
+    return sybil_risk
+
+def range_age(arg):
+    """Type function for age with predefined bounds."""
+    try:
+        age = float(arg)
+    except ValueError:
+        raise argparse.ArgumentTypeError("Age must be a floating point number")
+
+    MIN_AGE, MAX_AGE = 0.0, 200.0
+
+    if age <= MIN_AGE or age >= MAX_AGE:
+        raise argparse.ArgumentTypeError(
+            "Age must be <= " + str(MAX_AGE) + " and >= " + str(MIN_AGE))
+    return age
+
+def range_bmi(arg):
+    """Type function for BMI with predefined bounds."""
+    try:
+        bmi = float(arg)
+    except ValueError:
+        raise argparse.ArgumentTypeError("BMI must be a floating point number")
+
+    MIN_BMI, MAX_BMI = 0.0, 100.0
+
+    if bmi <= MIN_BMI or bmi >= MAX_BMI:
+        raise argparse.ArgumentTypeError(
+            "BMI must be <= " + str(MAX_BMI) + " and >= " + str(MIN_BMI))
+    return bmi
+
+def range_smoking_duration(arg):
+    """Type function for smoking duration with predefined bounds."""
+    try:
+        duration = float(arg)
+    except ValueError:
+        raise argparse.ArgumentTypeError("Smoking duration must be a floating point number")
+
+    MIN_DURATION, MAX_DURATION = 0.0, 200.0
+
+    if duration <= MIN_DURATION or duration >= MAX_DURATION:
+        raise argparse.ArgumentTypeError(
+            "Smoking duration must be <= " + str(MAX_DURATION) + " and >= " + str(MIN_DURATION))
+    return duration
+
+def range_smoking_intensity(arg):
+    """Type function for smoking intensity with predefined bounds."""
+    try:
+        intensity = float(arg)
+    except ValueError:
+        raise argparse.ArgumentTypeError("Smoking intensity must be a floating point number")
+
+    MIN_INTENSITY, MAX_INTENSITY = 0.0, 1000.0
+
+    if intensity <= MIN_INTENSITY or intensity >= MAX_INTENSITY:
+        raise argparse.ArgumentTypeError(
+            "Smoking intensity must be <= " + str(MAX_INTENSITY) + " and >= " + str(MIN_INTENSITY))
+    return intensity
+
+def range_smoking_quit(arg):
+    """Type function for smoking quit time with predefined bounds."""
+    try:
+        quit_time = float(arg)
+    except ValueError:
+        raise argparse.ArgumentTypeError("Smoking quit time must be a floating point number")
+
+    MIN_QUIT_TIME, MAX_QUIT_TIME = 0.0, 200.0
+
+    if quit_time <= MIN_QUIT_TIME or quit_time >= MAX_QUIT_TIME:
+        raise argparse.ArgumentTypeError(
+            "Smoking quit time must be <= " + str(MAX_QUIT_TIME) + " and >= " + str(MIN_QUIT_TIME))
+    return quit_time
+
 def prepare_argument_parser():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--risk_sybil_6_year", type=float, required=True,
+    parser.add_argument("--risk_sybil_6_year", type=range_risk_sybil_6_year, required=True,
         help="Vaue of 6-year risk calculated using Sybil.",)
-    parser.add_argument("--age", type=int, required=True,
+    parser.add_argument("--age", type=range_age, required=True,
         help="Age of the subject, in years.",)
-    parser.add_argument("--bmi", type=float, required=True,
+    parser.add_argument("--bmi", type=range_bmi, required=True,
         help="BMI of the subject, in kg/m^2.",)
     parser.add_argument("--copd", type=int, choices={0, 1}, required=True,
         help="1 if the subject presents COPD, 0 otherwise.",)
@@ -400,11 +484,11 @@ def prepare_argument_parser():
         help="1 if the subject presents lung cancer family history, 0 otherwise.",)
     parser.add_argument("--personal_history", choices={0, 1}, type=int, required=True,
         help="1 if the subject presents any cancer history, 0 otherwise.",)
-    parser.add_argument("--smoking_duration", type=int, required=True,
+    parser.add_argument("--smoking_duration", type=range_smoking_duration, required=True,
         help="Years of smoking.",)
-    parser.add_argument("--smoking_intensity", type=float, required=True,
+    parser.add_argument("--smoking_intensity", type=range_smoking_intensity, required=True,
         help="Average number of cigarettes smoked per day.",)
-    parser.add_argument("--smoking_quit", type=int, required=True,
+    parser.add_argument("--smoking_quit", type=range_smoking_quit, required=True,
         help="Time in years since the subject quit smoking.",)
     parser.add_argument("--smoking_status", type=int, choices={0, 1}, required=True,
         help="1 if the subject is a current smoker, 0 otherwise.",)
