@@ -15,11 +15,11 @@ The subject used in the example above presents the following factor values<sup>1
 |-|-|
 |Age (years)|66.08055556|
 |BMI (kg/m<sup>2</sup>)|29.64582054|
-|COPD (0-yes, 1-no)|0|
+|COPD (0-no, 1-yes)|0|
 |Education level<sup>2</sup>|6|
 |Ethnicity|White|
-|Family lung cancer history (0-yes, 1-no)|0|
-|Personal cancer history (0-yes, 1-no)|1|
+|Family lung cancer history (0-no, 1-yes)|0|
+|Personal cancer history (0-no, 1-yes)|1|
 |Smoking duration (years)|43|
 |Smoking intensity (cigarrettes per day)|0.8|
 |Smoking quit time (years)|0|
